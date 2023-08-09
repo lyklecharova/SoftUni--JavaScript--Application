@@ -1,0 +1,75 @@
+#details-wrapper {
+  background-color: rgb(192, 192, 192);
+  margin: 50px auto;
+  height: 75%;
+  width: 80%;
+ border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.24);
+}
+
+#details-wrapper img {
+  display: block;
+  margin: 10px auto;
+  height: 30vh;
+  width: 50vh;
+  padding-top: 10px;
+  border-radius: 35px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#details-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#details-description {
+  width: 95%;
+  margin: 30px auto;
+  height: auto;
+  text-align: center;
+}
+#details-title {
+  font-size: 22px;
+}
+
+h4 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+span {
+  font-size: 22px;
+}
+
+#action-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  
+}
+
+#action-buttons a {
+  text-decoration: none;
+  margin: auto 50px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  width: 130px;
+  text-align: center;
+  color: white;
+  background: rgb(214, 16, 16);
+  border-radius: 5px;
+}
+#action-buttons a:hover {
+  background: #ffffff;
+  color: black;
+}
+#nutrition {
+  font-size: 22px;
+}

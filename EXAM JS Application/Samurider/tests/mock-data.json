@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "_id": "0001",
+      "email": "peter@abv.bg",
+      "password": "123456",
+      "accessToken": "AAAA"
+    },
+    {
+      "_id": "0002",
+      "email": "john@abv.bg",
+      "password": "123456",
+      "accessToken": "BBBB"
+    }
+  ],
+  
+  "catalog": [
+    {
+      "_id": "1003",
+      "_ownerId": "0002",
+      "model": "Honda Hornet",
+      "imageUrl": "/images/Honda Hornet.png",
+      "year": "2006",
+      "milage": "50000" ,
+      "contact": "0881234567" ,
+      "about": "The Honda Hornet 2006 is a popular naked bike renowned for its nimble handling, reliable performance, and a sleek design that appeals to urban riders and commuters alike."
+    },
+    {
+      "_id": "1002",
+      "_ownerId": "0002",
+      "model": "Kawasaki er6n",
+      "imageUrl": "/images/Kawasaki er6n.png",
+      "year": "2016",
+      "milage": "10000" ,
+      "contact": "0884567123" ,
+      "about": "The Yamaha MT-07 2017 model is a thrilling and versatile naked motorcycle equipped with a powerful twin-cylinder engine, attractive styling, and advanced features, making it a favorite among riders seeking an exhilarating and enjoyable ride."
+    },
+    {
+      "_id": "1001",
+      "_ownerId": "0001",
+      "model": "Yamaha mt 07",
+      "imageUrl": "/images/Yamaha mt 07.png",
+      "year": "2017",
+      "milage": "15000" ,
+      "contact": "0886714523" ,
+      "about": "The Kawasaki ER6n 2016 boasts a well-engineered package, combining a responsive parallel-twin engine, comfortable ergonomics, and a modern design, making it a capable and practical choice for both everyday riding and spirited adventures."
+    }
+  ]
+}
